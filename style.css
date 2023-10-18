@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #dddddd;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.div-text-header {
+  display: flex;
+  max-width: fit-content;
+  top: 50%;
+}
+
+.div-header {
+  display: flex;
+  background-color: #122d54;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  border-bottom-width: 50px;
+  border-color: black;
+}
+
+.title-header {
+  text-align: center;
+  color: #b79058;
+}
+
+.spacer {
+  min-width: 5px;
+}
