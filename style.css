@@ -6,7 +6,7 @@ body {
   margin-top: 0px;
   margin-left: 0px;
   display: block;
-  background-image: url("background.png");
+  background-image: url("media/background.png");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -50,9 +50,10 @@ header {
 
 .div-body {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
-  height: 100vh;
+  overflow-y: auto;
 }
 
 .div-square {
@@ -60,6 +61,8 @@ header {
   padding: 20px;
   max-width: 600px;
   background-color: #122d54;
+  opacity: 80%;
+  margin-top: 20px;
 }
 
 .company-list {
@@ -68,4 +71,26 @@ header {
   border: 2px solid #000; /* Borda da lista (personalize a cor e estilo) */
   max-width: 600px; /* Largura máxima da lista */
   margin: 20px auto; /* Centraliza a lista horizontalmente */
+}
+
+.div-header-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+
+button {
+  margin-right: 10px;
+  font-size: 13pt;
+  border-radius: 10px;
+  border-color: #b79058;
+  border-width: 4px;
+  background-color: #122d54;
+  color: white;
+}
+
+.italic-bold{
+  font-style: italic;
+  font-weight: bold;
 }
