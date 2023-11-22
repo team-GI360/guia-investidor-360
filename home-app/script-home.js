@@ -30,8 +30,7 @@ const AcaoFIIBody = `
             <li>AF INVEST CRI FDO. INV. IMOB - RECEBÍVEIS IMOB. - Rentabilidade: 96.05%</li>
             <li>JASC RENDA VAREJO ESSENCIAL FDO DE INV IMOB - FII - Rentabilidade: 99.48%</li>
         </ul>
-    </div>
-    `;
+    </div>`;
 
 const LCIBody = `
     <div class="div-square">

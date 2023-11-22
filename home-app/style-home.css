@@ -6,7 +6,7 @@ body {
   margin-top: 0px;
   margin-left: 0px;
   display: block;
-  background-image: url("media/background.png");
+  background-image: url("../media/background-home.jpg");
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -45,7 +45,7 @@ header {
 }
 
 .spacer {
-  min-width: 5px;
+  min-height: 40px;
 }
 
 .div-body {
@@ -63,14 +63,31 @@ header {
   background-color: #122d54;
   opacity: 80%;
   margin-top: 20px;
+  width: 500px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
 .company-list {
-  background-color: #f4f4f4; /* Cor de fundo para a lista de empresas (pode personalizar a cor) */
-  padding: 20px; /* Espaçamento interno */
-  border: 2px solid #000; /* Borda da lista (personalize a cor e estilo) */
-  max-width: 600px; /* Largura máxima da lista */
-  margin: 20px auto; /* Centraliza a lista horizontalmente */
+  background-color: #f4f4f4; 
+  padding: 20px; 
+  border: 2px solid #000; 
+  max-width: 600px; 
+  margin: 20px auto;
 }
 
 .div-header-buttons{
@@ -81,13 +98,13 @@ header {
 }
 
 button {
-  margin-right: 10px;
   font-size: 13pt;
   border-radius: 10px;
   border-color: #b79058;
   border-width: 4px;
   background-color: #122d54;
   color: white;
+  margin-left: 10px;
 }
 
 .italic-bold{
